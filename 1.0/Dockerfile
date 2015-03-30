@@ -4,4 +4,4 @@ MAINTAINER Kevin Deenanauth <kevin@deenanauth.com>
 
 # TODO specify version
 RUN pacman -Syu --noconfirm
-RUN pacman -S mono --noconfirm
+RUN pacman -S mono mono-basic --noconfirm
